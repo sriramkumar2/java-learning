@@ -1,0 +1,19 @@
+# Maven build output
+target/
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# IntelliJ / VS Code
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local database credentials (never commit)
+src/main/resources/db.properties

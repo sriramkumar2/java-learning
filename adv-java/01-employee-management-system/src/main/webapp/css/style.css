@@ -1,0 +1,102 @@
+
+/* General Page Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f1f5f9;
+    padding: 40px;
+    color: #1e293b;
+}
+
+/* Main Heading */
+h1 {
+    font-size: 38px;
+    color: #1e3a5f;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Welcome Heading */
+h2 {
+    text-align: center;
+    font-size: 22px;
+    color: #64748b;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+/* Horizontal Line */
+hr {
+    border: none;
+    height: 2px;
+    background: #cbd5e1;
+    margin-bottom: 35px;
+}
+
+/* Operations Heading */
+h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #334155;
+    text-align: center;
+}
+
+/* Operations Container */
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* Operation Cards */
+li {
+    background: white;
+    padding: 28px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-color: #3b82f6;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #2563eb;
+    font-size: 19px;
+    font-weight: 600;
+    display: block;
+}
+
+a:hover {
+    color: #1d4ed8;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    ul {
+        grid-template-columns: 1fr;
+    }
+}
