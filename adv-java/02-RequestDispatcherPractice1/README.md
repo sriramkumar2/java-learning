@@ -35,3 +35,6 @@ This is a simple Java Web Application to learn how one Servlet sends a request t
 
 ## Learning Objective
 To understand how one Servlet forwards a request to another Servlet using the `RequestDispatcher.forward()` method.
+
+## How to Install and Run
+See [SETUP.md](SETUP.md) for step-by-step instructions (Eclipse and command line).
